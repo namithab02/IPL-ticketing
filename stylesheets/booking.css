@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../images/background.jpg) no-repeat center fixed;
+    background-size: cover;
+	font-family: 'Alegreya',cursive;
+}
+.res{
+	max-width: 500px;
+	width: 100%;
+	color:whitesmoke;
+	background-color: rgba(0,0,0,0.5);
+	font-family: 'Alegreya',cursive;
+	margin:20px auto;
+	padding: 30px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.res .title{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: whitesmoke;
+	font-family:  'Cinzel decorative';
+	text-transform: uppercase;
+	text-align: center;
+}
+.res .form{
+	width: 100%;
+}
+
+
+.res .form .input_field{
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+.res .form .input_field label{
+	width: 200px;
+	color: whitesmoke;
+	font-size: 20px;
+}
+.res .form .input_field .input{
+	width: 100%;
+	outline: none;
+	font-size: 15px;
+	padding:  6px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+::placeholder{
+
+    font-family: 'Alegreya',cursive;
+}
+.res .form .input_field .btn{
+	width: 50%;
+	background-color: #ffd658;
+}
+.res .form .input_field .btn:hover{
+    background-color: aqua;
+    opacity: 0.7;
+}
+@media (max-width: 550px){
+
+	.res .form .input_field{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.res .form .input_field label{
+		margin-bottom: 5px;
+	}
+   
+}
